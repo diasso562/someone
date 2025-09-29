@@ -11,6 +11,13 @@ class Test extends StatefulWidget {
 class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Charles"),
+      ),
+      body: Container(
+        child: Text("Hello Antoine")
+      )
+    );
   }
 }
